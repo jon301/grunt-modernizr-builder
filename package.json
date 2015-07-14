@@ -14,12 +14,7 @@
   "bugs": {
     "url": "https://github.com/jon301/grunt-modernizr-builder/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jon301/grunt-modernizr-builder/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -27,13 +22,13 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "^0.9.2",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-nodeunit": "^0.3.3",
-    "grunt": "~0.4.5"
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt": "^0.4.5"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "^0.4.5"
   },
   "keywords": [
     "gruntplugin",
