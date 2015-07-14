@@ -2,10 +2,9 @@
 
 [![Build Status: Linux](https://travis-ci.org/jon301/grunt-modernizr-builder.svg?branch=master)](https://travis-ci.org/jon301/grunt-modernizr-builder) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/8flhe7xy7n89akh8/branch/master?svg=true)](https://ci.appveyor.com/project/jon301/grunt-modernizr-builder/branch/master)
 [![Dependency Status](https://david-dm.org/jon301/grunt-modernizr-builder.svg)](https://david-dm.org/jon301/grunt-modernizr-builder) [![devDependency Status](https://david-dm.org/jon301/grunt-modernizr-builder/dev-status.svg)](https://david-dm.org/jon301/grunt-modernizr-builder#info=devDependencies) [![peerDependency Status](https://david-dm.org/jon301/grunt-modernizr-builder/peer-status.svg)](https://david-dm.org/jon301/grunt-modernizr-builder#info=peerDependencies)
+[![npm version](https://badge.fury.io/js/grunt-modernizr-builder.svg)](http://badge.fury.io/js/grunt-modernizr-builder)
 
 > Build a customized version of Modernizr based on your needs.
-
-[![NPM](https://nodei.co/npm/grunt-modernizr-builder.png)](https://nodei.co/npm/grunt-modernizr-builder/)
 
 *Note*: This plugin uses version 3 of Modernizr.
 
