@@ -1,0 +1,9 @@
+{
+  "classPrefix": "prefix-test",
+  "options": [
+    "addTest"
+  ],
+  "feature-detects": [
+    "a/download"
+  ]
+}
