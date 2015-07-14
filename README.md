@@ -1,7 +1,10 @@
-# grunt-modernizr-builder v0.1.0 [![Build Status: Linux](https://travis-ci.org/jon301/grunt-modernizr-builder.svg?branch=master)](https://travis-ci.org/jon301/grunt-modernizr-builder)
-
+# grunt-modernizr-builder v0.1.0 [![Build Status: Linux](https://travis-ci.org/jon301/grunt-modernizr-builder.svg?branch=master)](https://travis-ci.org/jon301/grunt-modernizr-builder) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/8flhe7xy7n89akh8/branch/master?svg=true)](https://ci.appveyor.com/project/jon301/grunt-modernizr-builder/branch/master)
 
 > Build a customized version of Modernizr based on your needs.
+
+[![NPM](https://nodei.co/npm/grunt-modernizr-builder.png)](https://nodei.co/npm/grunt-modernizr-builder/)
+
+*Note*: This plugin uses version 3 of Modernizr.
 
 
 
@@ -35,21 +38,22 @@ _Run this task with the `grunt modernizr_builder` command._
 #### config
 Type: `String`
 
-Path to a JSON file containing Modernizr configuration. See [config-all.json](https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json) for all available options.
+Path to a JSON file containing Modernizr configuration.
+See [config-all.json](https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json) for all available options.
 
 #### features
 Type: `String`
 
-Comma seperate list of feature detects. e.g. 'ambientlight,applicationcache,audioloop'
+Comma separate list of feature detects.
 
 #### options
 Type: `String`
 
-Comma seperate list of extensibility options. e.g. 'atRule,prefixedCSS,testStyles'
+Comma separate list of extensibility options.
 
 ####  dest
 Type: `String`
-Default: ./modernizr.js
+Default: `./modernizr.js`
 
 Path to write the Modernizr build file to.
 
@@ -92,5 +96,5 @@ modernizr_builder: {
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+MIT © Jonathan Trang
 
