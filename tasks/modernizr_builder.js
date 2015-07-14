@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     grunt.registerMultiTask('modernizr_builder', 'Build a customized version of Modernizr based on your needs.', function() {
         var path = require('path');
         var exec = require('child_process').exec;
-        var cmd = [path.join(process.cwd(), 'node_modules/.bin/modernizr')];
+        var cmd = [path.join(__dirname, '..', 'node_modules', '.bin', 'modernizr')];
         var value = null;
         var key = null;
 

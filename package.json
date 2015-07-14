@@ -1,7 +1,7 @@
 {
   "name": "grunt-modernizr-builder",
   "description": "Build a customized version of Modernizr based on your needs.",
-  "version": "0.1.1",
+  "version": "0.1.7",
   "homepage": "https://github.com/jon301/grunt-modernizr-builder",
   "author": {
     "name": "Jonathan Trang",
