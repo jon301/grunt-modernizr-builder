@@ -1,4 +1,5 @@
-# grunt-modernizr-builder v0.1.0
+# grunt-modernizr-builder v0.1.0 [![Build Status: Linux](https://travis-ci.org/jon301/grunt-modernizr-builder.svg?branch=master)](https://travis-ci.org/jon301/grunt-modernizr-builder)
+
 
 > Build a customized version of Modernizr based on your needs.
 
