@@ -1,7 +1,7 @@
 {
   "name": "grunt-modernizr-builder",
   "description": "Build a customized version of Modernizr based on your needs.",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "homepage": "https://github.com/jon301/grunt-modernizr-builder",
   "author": {
     "name": "Jonathan Trang",
@@ -22,12 +22,9 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt": "^0.4.5"
-  },
-  "peerDependencies": {
     "grunt": "^0.4.5"
   },
   "keywords": [
@@ -35,6 +32,6 @@
     "modernizr"
   ],
   "dependencies": {
-    "modernizr": "https://github.com/Modernizr/Modernizr/tarball/master"
+    "modernizr": "^3.3.1"
   }
 }

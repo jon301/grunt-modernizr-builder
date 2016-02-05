@@ -2,7 +2,7 @@
  * grunt-modernizr-builder
  * https://github.com/jon301/grunt-modernizr-builder
  *
- * Copyright (c) 2015 Jonathan Trang
+ * Copyright (c) 2015-2016 Jonathan Trang
  * Licensed under the MIT license.
  */
 

@@ -12,8 +12,14 @@ module.exports = function(grunt) {
 
     grunt.registerMultiTask('modernizr_builder', 'Build a customized version of Modernizr based on your needs.', function() {
         var path = require('path');
+        var fs = require('fs');
         var exec = require('child_process').exec;
-        var cmd = [path.join(__dirname, '..', 'node_modules', '.bin', 'modernizr')];
+
+        // npm 3.X
+        var flattenedBin = path.join(process.cwd(), 'node_modules/.bin/modernizr');
+        // npm 2.X or npm 3.X + dependency conflicts
+        var nestedBin = path.join(process.cwd(), 'node_modules/grunt-modernizr-builder/node_modules/.bin/modernizr');
+        var cmd = [fs.existsSync(nestedBin) ? nestedBin : flattenedBin];
         var value = null;
         var key = null;
 
