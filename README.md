@@ -1,4 +1,4 @@
-# grunt-modernizr-builder v0.1.8
+# grunt-modernizr-builder v0.1.9
 
 [![Build Status: Linux](https://travis-ci.org/jon301/grunt-modernizr-builder.svg?branch=master)](https://travis-ci.org/jon301/grunt-modernizr-builder) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/8flhe7xy7n89akh8/branch/master?svg=true)](https://ci.appveyor.com/project/jon301/grunt-modernizr-builder/branch/master)
 [![Dependency Status](https://david-dm.org/jon301/grunt-modernizr-builder.svg)](https://david-dm.org/jon301/grunt-modernizr-builder) [![devDependency Status](https://david-dm.org/jon301/grunt-modernizr-builder/dev-status.svg)](https://david-dm.org/jon301/grunt-modernizr-builder#info=devDependencies) [![peerDependency Status](https://david-dm.org/jon301/grunt-modernizr-builder/peer-status.svg)](https://david-dm.org/jon301/grunt-modernizr-builder#info=peerDependencies)
@@ -8,7 +8,10 @@
 
 *Note*: This plugin uses version 3 of Modernizr.
 
+*Note 2 (2015-02-06)*: The Modernizr team has recently updated their own grunt plugin, which supports Modernizr 3.
+So obvisouly, you should now prefer using the official [grunt-modernizr](https://github.com/modernizr/grunt-modernizr) plugin in your project.
 
+![Status](https://img.shields.io/badge/status-deprecated-red.svg)
 
 ## Getting Started
 This plugin requires Grunt `>=0.4.0`
