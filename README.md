@@ -9,7 +9,7 @@
 *Note*: This plugin uses version 3 of Modernizr.
 
 *Note 2 (2015-02-06)*: The Modernizr team has recently updated their own grunt plugin, which supports Modernizr 3.
-So obvisouly, you should now prefer using the official [grunt-modernizr](https://github.com/modernizr/grunt-modernizr) plugin in your project.
+So obviously, you should now prefer using the official [grunt-modernizr](https://github.com/modernizr/grunt-modernizr) plugin in your project.
 
 ![Status](https://img.shields.io/badge/status-deprecated-red.svg)
 
